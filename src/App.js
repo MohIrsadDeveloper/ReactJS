@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Image from './components/Image';
+// import Content1 from './components/Content1';
+import A from "./ComponentAtoZ/A"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <h1>India Flight Tests Man-Portable Anti-Tank Guided Missile</h1>
+      <Image />
+      <Content1 /> */}
+
+      <h1>A to Z Functional and Class Components</h1>
+      <A />
     </div>
   );
 }
